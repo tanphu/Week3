@@ -68,8 +68,8 @@ export default class App extends React.Component {
         <View style={styles.gamePlayerWrapper}>
           <PlayerCard PlayerName="User" choice={this.state.playerChoice} />
           <Text style={{ justifyContent: 'center', alignItems: 'center', fontSize: 20, }}>vs</Text>
-          <PlayerCard PlayerName="Comp" choice={this.state.computerChoice} />
-        </View>ser
+          <PlayerCard PlayerName="Computer" choice={this.state.computerChoice} />
+        </View>
         <View style={styles.buttonGroupWrapper}>
           <ButtonGroup onPressButton={this.onPressButton} />
         </View>
